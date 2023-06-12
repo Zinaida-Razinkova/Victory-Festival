@@ -1,0 +1,128 @@
+.program {
+    padding-top: 155px;
+    padding-bottom: 45px;
+
+    @media screen and (min-width: 1025px) {
+        padding-top: 100px;
+    }
+}
+
+.program__title {
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 1025px) {
+        text-align: center;
+        margin-bottom: 14px;
+    }
+}
+
+.program__text {
+    margin-bottom: 7px;
+
+    @media screen and (min-width: 1025px) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.program__paragraph {
+    color: #73A6B1;
+    margin-bottom: 69px;
+
+    @media screen and (min-width: 1025px) {
+        text-align: center;
+        margin-bottom: 57px;
+    }
+}
+
+.programm__block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1FDFF;
+    border-radius: 10px;
+    padding: 40px;
+
+    &:not(:last-child) {
+        margin-bottom: 72px;
+    }
+
+    @media screen and (min-width: 769px) {
+        align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+        padding: 0px 0px 50px 0px;
+
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.programm__block-img {
+    border-radius: 10px;
+
+    @media screen and (min-width: 769px) {
+        margin-left: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 45px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1149px) {
+        width: 350px;
+    }
+}
+
+.programm__content {
+    @media screen and (max-width: 768px) {
+        margin-left: 18px;
+    }
+}
+
+.programm__content-title {
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.programm__content-block {
+    &:not(:last-child) {
+        margin-bottom: 35px;
+
+        @media screen and (max-width: 475px) {
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+.programm__content-block_title {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.programm__content-title_1 {
+    margin-bottom: 10px;
+}
+
+.programm__content-subtitle {
+    margin-bottom: 45px;
+}
+
+.programm__content-block_text {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #3D8C9D;
+}
+
+.programm__button {
+    display: block;
+    max-width: 262px;
+    padding: 21px 35px;
+    margin-left: auto;
+    margin-right: auto;
+}

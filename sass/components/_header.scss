@@ -1,0 +1,153 @@
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+.header__wrapp {
+    @media screen and (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.header__nav {
+
+    @media screen and (min-width: 1025px) {
+        padding-top: 63px;
+        padding-bottom: 63px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding-top: 46px;
+        padding-bottom: 48px;
+    }
+}
+
+.header__wrapper {
+    @media screen and (min-width: 1025px) {
+        display: flex;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 40px;
+    }
+
+}
+
+.header__logo img {
+    @media screen and (max-width: 1024px) {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.header__list {
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1025px) {
+        display: flex;
+    }
+}
+
+.header__item:not(:last-child) {
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1025px) {
+        margin-right: 56px;
+    }
+}
+
+.header__link {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+    line-height: 0.95;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+        color: #9AD2DE;
+    }
+}
+
+.header__button {
+    line-height: 0.95;
+
+    @media screen and (min-width: 1025px) {
+        margin-left: 24px;
+    }
+
+}
+
+// Mobile menu
+
+.header__menu {
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+
+
+    @media screen and (min-width: 1025px) {
+        display: none;
+    }
+}
+
+.header__menu-burger {
+    fill: #7AE5FD;
+}
+
+.header__menu .header__menu-close {
+    fill: #7AE5FD;
+    display: none;
+}
+
+
+.header__menu.is-open .header__menu-close {
+    display: block;
+    fill: #7AE5FD;
+}
+
+.header__menu.is-open .header__menu-burger {
+    display: none;
+}
+
+.header__container {
+
+    @media screen and (max-width: 1024px) {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+
+        display: none;
+        background-color: inherit;
+        padding: 20px;
+        text-align: center;
+        background-color: #F1FDFF;
+
+        &.is-open {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 1025px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

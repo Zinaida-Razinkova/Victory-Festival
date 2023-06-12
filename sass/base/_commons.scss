@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.4;
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 84px 0 100px;
+
+    @media screen and (max-width: 1024px) {
+            padding: 0 50px;
+        }
+    
+        @media screen and (max-width: 475px) {
+            padding: 0 20px;
+        }
+}
+
+.title__big {
+        font-size: 60px;
+        line-height: 1.2;    
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        @media screen and (max-width: 475px) {
+                font-size: 50px;
+            }
+                        @media screen and (max-width: 375px) {
+                            font-size: 40px;
+                        }
+}
+
+.title__small {
+    font-size: 46px;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        @media screen and (max-width: 475px) {
+                font-size: 30px;
+            }
+}
+
+.text__big {
+    font-size: 27px;
+    line-height: 1.2;
+
+    @media screen and (max-width: 475px) {
+        font-size: 20px;
+    }
+}
+
+.text__small {
+    font-size: 20px;
+    line-height: 1.2;
+
+    @media screen and (max-width: 475px) {
+        font-size: 16px;
+    }
+}

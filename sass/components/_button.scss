@@ -1,0 +1,19 @@
+.button {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+    border: none;
+    border-radius: 87px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 21px 25px;
+    background-color: #7AE5FD;
+    color: inherit;
+
+    &:hover,
+        &:focus {
+            background-color: #9AD2DE;
+        }
+}
+
+

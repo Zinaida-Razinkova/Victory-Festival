@@ -1,0 +1,54 @@
+.hero {
+    position: relative;
+    top: -175px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+
+    background-color: #F1FDFF;
+    background-image: url(../images/hero/medium-shot-woman-holding-ukranian-flag\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 0px right -435px;
+
+    padding-top: 200px;
+    padding-bottom: 153px;
+    margin-bottom: -175px;
+
+    @media screen and (max-width: 475px) {
+        background-image: url(../images/hero/medium-shot-woman-holding-ukranian-flag-mobile.png);
+        background-size: contain;
+        background-position: bottom 0px right 0px;
+        padding-bottom: 401px;
+    }
+}
+
+.hero__title {
+    max-width: 698px;
+    font-weight: 800;
+    font-size: 93px;
+    line-height: 0.94;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9AD2DE;
+    margin-bottom: 66px;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 63px;
+    }
+
+    @media screen and (max-width: 475px) {
+        font-size: 50px;
+        margin-bottom: 36px;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 40px;
+        margin-bottom: 36px;
+    }
+}
+
+.hero__text {
+    max-width: 484px;
+}

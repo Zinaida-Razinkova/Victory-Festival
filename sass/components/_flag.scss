@@ -1,0 +1,68 @@
+.flag {
+    position: relative;
+
+    @media screen and (min-width: 1025px) {
+        height: 738px;
+        background-image: url(../images/flag/img01.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+          @media screen and (max-width: 1024px) {
+            margin-bottom: 550px;
+          }
+}
+
+.flag__block {
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    right: 84px;
+    background: #F2FEFF;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 95px;
+    padding-bottom: 91px;
+
+    @media screen and (max-width: 1024px) {
+        top: 128px;
+        left: 20px;
+        right: 20px;
+        padding-left: 13px;
+        padding-top: 283px;
+        padding-right: 17px;
+        padding-bottom: 40px;
+    }
+}
+
+.flag__text {
+    max-width: 391px;
+    @media screen and (max-width: 1024px) {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+
+.flag__img {
+    position: absolute;
+    top: 188px;
+    right: 154px;
+
+    @media screen and (max-width: 1024px) {
+        max-width: 337px;
+        top: 0px;
+        left: 35%;
+    }
+          @media screen and (max-width: 768px) {
+              left: 32%;
+          }
+                  @media screen and (max-width: 600px) {
+                      left: 10%;
+                  }
+
+    @media screen and (max-width: 389px) {
+        max-width: 300px;
+        top: 0px;
+        left: 10px;
+    }
+}
