@@ -6,10 +6,12 @@
         background-image: url(../images/flag/img01.png);
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
     }
-          @media screen and (max-width: 1024px) {
-            margin-bottom: 550px;
-          }
+
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 550px;
+    }
 }
 
 .flag__block {
@@ -36,29 +38,32 @@
 
 .flag__text {
     max-width: 391px;
+
     @media screen and (max-width: 1024px) {
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .flag__img {
     position: absolute;
     top: 188px;
-    right: 154px;
+    right: 238px;
 
     @media screen and (max-width: 1024px) {
         max-width: 337px;
         top: 0px;
         left: 35%;
     }
-          @media screen and (max-width: 768px) {
-              left: 32%;
-          }
-                  @media screen and (max-width: 600px) {
-                      left: 10%;
-                  }
+
+    @media screen and (max-width: 768px) {
+        left: 32%;
+    }
+
+    @media screen and (max-width: 600px) {
+        left: 10%;
+    }
 
     @media screen and (max-width: 389px) {
         max-width: 300px;

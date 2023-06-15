@@ -1,38 +1,39 @@
 .program {
-    padding-top: 155px;
+    padding-top: 142px;
     padding-bottom: 45px;
 
-    @media screen and (min-width: 1025px) {
+    @media screen and (max-width: 1025px) {
         padding-top: 100px;
     }
 }
 
 .program__title {
     font-weight: 400;
-    margin-bottom: 10px;
 
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1024px) {
         text-align: center;
-        margin-bottom: 14px;
     }
 }
 
 .program__text {
     margin-bottom: 7px;
 
-    @media screen and (min-width: 1025px) {
+    @media screen and (min-width: 1024px) {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 12px;
     }
 }
 
 .program__paragraph {
+    max-width: 590px;
     color: #73A6B1;
     margin-bottom: 69px;
 
-    @media screen and (min-width: 1025px) {
+
+    @media screen and (min-width: 1024px) {
         text-align: center;
-        margin-bottom: 57px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -122,7 +123,7 @@
 .programm__button {
     display: block;
     max-width: 262px;
-    padding: 21px 35px;
+    padding: 10px 35px;
     margin-left: auto;
     margin-right: auto;
 }

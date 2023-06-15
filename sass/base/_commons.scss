@@ -45,35 +45,38 @@ a {
     padding: 0 84px 0 100px;
 
     @media screen and (max-width: 1024px) {
-            padding: 0 50px;
-        }
-    
-        @media screen and (max-width: 475px) {
-            padding: 0 20px;
-        }
+        padding: 0 50px;
+    }
+
+    @media screen and (max-width: 475px) {
+        padding: 0 20px;
+    }
 }
 
 .title__big {
-        font-size: 60px;
-        line-height: 1.2;    
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        @media screen and (max-width: 475px) {
-                font-size: 50px;
-            }
-                        @media screen and (max-width: 375px) {
-                            font-size: 40px;
-                        }
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 475px) {
+        font-size: 50px;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 40px;
+    }
 }
 
 .title__small {
     font-size: 46px;
-        line-height: 1.2;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        @media screen and (max-width: 475px) {
-                font-size: 30px;
-            }
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 475px) {
+        font-size: 30px;
+    }
 }
 
 .text__big {

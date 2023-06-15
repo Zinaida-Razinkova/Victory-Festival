@@ -2,10 +2,11 @@
     text-align: center;
     padding-top: 68px;
     padding-bottom: 141px;
+
     @media screen and (max-width: 1024px) {
-            padding-top: 30px;
-                padding-bottom: 50px;
-        }
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
 }
 
 .target__title {
@@ -66,15 +67,16 @@
     height: 62px;
     top: 20px;
     right: 0;
+
     @media screen and (max-width: 475px) {
-            top: 10px;
-        }
+        top: 10px;
+    }
 }
 
 .target__button {
     display: block;
-        max-width: 276px;
-        padding: 21px 35px;
-        margin-left: auto;
-        margin-right: auto;
+    max-width: 276px;
+    padding: 10px 35px;
+    margin-left: auto;
+    margin-right: auto;
 }

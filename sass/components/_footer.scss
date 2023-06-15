@@ -1,0 +1,133 @@
+.footer {
+    background-color: #F9FADF;
+    padding: 57px 0px 116px;
+
+    @media screen and (max-width: 1023.98px) {
+        padding: 57px 0px 0px;
+    }
+}
+
+.footer__contacts {
+    display: flex;
+    margin-bottom: 101px;
+
+    @media screen and (max-width: 475px) {
+        margin-bottom: 95px;
+    }
+
+    @media screen and (max-width: 1023.98px) {
+        flex-direction: column;
+    }
+
+}
+
+.footer__title {
+    font-weight: inherit;
+    margin-right: 258px;
+
+    @media screen and (max-width: 1023.98px) {
+        margin-bottom: 44px;
+    }
+}
+
+.footer__text {
+    @media screen and (max-width: 1023.98px) {
+        max-width: 346px;
+    }
+}
+
+.footer__text span {
+    display: block;
+}
+
+.footer__item {
+    &:not(:last-child) {
+        margin-bottom: 47px;
+    }
+}
+
+.footer__item-block {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.footer__link-number {
+    margin-bottom: 9px;
+}
+
+.footer__link-number {
+    color: inherit;
+}
+
+.footer__link-telegram {
+    margin-right: 16px;
+}
+
+.footer__text {
+    max-width: 444px;
+
+    @media screen and (max-width: 1023.98px) {
+        margin-top: 9px;
+    }
+}
+
+.footer__subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 54px 97px 54px 39px;
+
+    @media screen and (max-width: 1023.98px) {
+        flex-direction: column;
+        padding: 36px 20px 72px 20px;
+        margin: 0 -20px 0 -20px;
+        border-radius: 0;
+    }
+}
+
+.footer__subscribe-img {
+    @media screen and (max-width: 1023.98px) {
+        margin: 0 auto;
+        margin-bottom: 89px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin-right: 20px;
+    }
+}
+
+.footer__subscribe-text {
+    max-width: 455px;
+    margin-bottom: 39px;
+
+    @media screen and (max-width: 1023.98px) {
+        margin-bottom: 63px;
+    }
+}
+
+.footer__subscribe-form {
+    max-width: 506px;
+
+    @media screen and (max-width: 1023.98px) {
+        margin: 0 auto;
+    }
+}
+
+.footer__subscribe-input {
+    display: block;
+    width: 100%;
+    background: #F9FADF;
+    border-radius: 61px;
+    padding: 21px 0px 21px 43px;
+
+    &:not(:last-child) {
+        margin-bottom: 31px;
+    }
+}
+
+.footer__subscribe-button {
+    width: 100%;
+    padding: 22px 0px 22px 0px;
+}
